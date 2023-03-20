@@ -1,0 +1,9 @@
+.botonesFiltro{
+    font-size: small;
+}
+
+@media only screen and (max-width: 600px){
+    .botonesFiltro{
+        font-size: 10px;
+    }
+}

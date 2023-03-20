@@ -1,0 +1,22 @@
+.containerList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    margin-left: 7%;
+    margin-right:7%;
+    margin-bottom: 4%;
+}
+.StyleCard{
+    width: 30%;
+    margin: 1.5%
+}
+
+
+@media only screen and (max-width: 600px){
+    .StyleCard{
+        width: 100%;
+        margin: 2%
+    }
+}

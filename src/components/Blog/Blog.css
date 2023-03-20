@@ -1,0 +1,46 @@
+.dejanosComentarioBlog{
+    width: 36%;
+    height: auto;
+    margin: 5%;
+}
+.introBlog{
+    width: 31%;
+    height: auto;
+    text-align: justify;
+    font-weight: bolder;
+}
+.containerBlog{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+.listaComentariosBlog{
+    height: 100vh;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #ab957338;
+}
+
+@media only screen and (max-width: 600px){
+    .containerBlog{
+        flex-direction: column;
+    }
+    .dejanosComentarioBlog{
+        width: 60%;
+        height: auto;
+        margin: 5%;
+    }
+    .introBlog{
+        width: 60%;
+        height: auto;
+    }
+    .listaComentariosBlog{
+        height: auto;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 20%;
+    }
+}

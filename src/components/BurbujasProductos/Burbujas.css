@@ -1,0 +1,14 @@
+.burbuja{
+    text-align: center;
+}
+
+.imgBurbuja{
+    border-radius: 25% 10%;
+}
+.burbuja:hover{
+    zoom: 110%;
+}
+.titulo{
+    font-size: 25px;
+    color:black;
+}
